@@ -26,7 +26,7 @@ header nav {
 }
 
 header nav button {
-    background: #007BFF;
+    background: #28a745;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -77,7 +77,7 @@ h2 {
 
 /* Button styling */
 button {
-    background: #007BFF;
+    background: #28a745;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -87,4 +87,61 @@ button {
 
 button:hover {
     background: #0056b3;
+}
+
+.moodboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.moodboard-grid img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.moodboard-grid div {
+    text-align: center;
+}
+
+.moodboard-grid p {
+    margin-top: 8px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Main page title */
+h1 {
+    font-size: 36px;
+    letter-spacing: 1px;
+}
+
+/* Section titles (like "Meet Our Team") */
+.container h2 {
+    font-size: 24px;
+    color: #28a745; /* green */
+    border-bottom: 2px solid #28a745;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: bold;
+    color: #333;
+}
+
+.role {
+    color: #777;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
 }
