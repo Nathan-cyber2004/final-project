@@ -1,0 +1,4 @@
+# ignore these folders and files
+.venv/
+.idea/
+.DS_Store
